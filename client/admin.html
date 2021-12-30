@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<!-- Theme Made By www.w3schools.com -->
+	<title>QUESTIONS POUR UN CHAMPION</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link href="/ressources/css.css" rel="stylesheet" type="text/css">
+	<script src="/ressources/admin.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand">QPUC</a>
+		</div>
+	</nav>
+
+	<div class="jumbotron text-center">
+		<h1 id="main_text">&nbsp;<h1>
+	</div>
+	<div class="btn-group btn-group-justified">
+		<a type="button" onclick="requete('resume')" class="btn btn-lg btn-danger">RESUME</a>
+		<a type="button" onclick="requete('pause')" class="btn btn-lg btn-danger">PAUSE</a>
+	</div>
+
+	<div class="jumbotron text-center" id="information">
+	</div>
+
+	<div class="container-fluid">
+		<div class="text-center">
+			<h1 id="sub_text"></h1>
+			<h2>Classement</h2><br><br>
+		</div>
+		<div class="row" id="classement">
+		</div>
+	</div>
+
+
+</body>
+
+</html>
